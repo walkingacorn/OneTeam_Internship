@@ -48,21 +48,46 @@
     
     
 #7. Prime number check
-num=int(input("Enter a number:"))
-if num<=1:
-    print("It is not prime")
-else:
-    i=2
-    while i<=num//2:
-        if num%i==0:
-            print("It is not prime")
-            break
-        i+=1
-    else:
-        print("It is prime")
+# num=int(input("Enter a number:"))
+# if num<=1:
+#     print("It is not prime")
+# else:
+#     i=2
+#     while i<=num//2:
+#         if num%i==0:
+#             print("It is not prime")
+#             break
+#         i+=1
+#     else:
+#         print("It is prime")
     
 
 #8. Count digits
+
+
+
+
    
 #9. Fibonacci series
+# def fib(n):
+#     a,b=0,1
+#     i=0
+    
+#     while(i<n):
+#         print(a,end=" ")
+#         a,b=b,a+b
+#         i+=1
+        
+# fib(6)
+
+
+
+
 #10. Factorial
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return n * factorial(n-1)
+    
+# print(factorial(5))

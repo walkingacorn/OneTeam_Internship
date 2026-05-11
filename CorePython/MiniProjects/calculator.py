@@ -19,7 +19,7 @@ while True:
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
-    print("5. Exit")
+    print("5. Switiching Off...")
 
     choice = input("Enter your choice (1-5): ")
 
