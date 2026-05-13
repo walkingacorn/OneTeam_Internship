@@ -46,14 +46,34 @@
 
 
 #Sorting
-fruits=["banana","apple","cherry"]
-fruits.sort()
-print(fruits)
+# fruits=["banana","apple","cherry"]
+# fruits.sort()
+# print(fruits)
 
-numbers=[3,1,4,1,5]
-print(sorted(numbers)) #returns a new sorted list
+# numbers=[3,1,4,1,5]
+# print(sorted(numbers)) #returns a new sorted list
 
-print(fruits.index("cherry"))
-print(numbers.count(1))
-fruits.reverse()
-print(fruits)
+# print(fruits.index("cherry"))
+# print(numbers.count(1))
+# fruits.reverse()
+# print(fruits)
+
+
+#Nested List
+# picnic_bags=[['sandwich','juice'],['chips','soda'],['cookies','milk']]
+
+# print(picnic_bags[1][1])
+# print(picnic_bags[1][3]) #Index Error List out of range
+
+
+# numbers=[[3,2,1],[6,5,4],[8,9,7]]
+# numbers.reverse()
+# print(numbers)
+# largest=max(numbers)
+# print(largest)
+# smallest=min(numbers)
+# smallest1=min(numbers[0])
+# print(smallest)
+# print(smallest1)
+# numbers.sort()
+# print(numbers)

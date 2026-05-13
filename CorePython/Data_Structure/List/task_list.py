@@ -15,7 +15,7 @@
 # num2=set(num)
 # num3=list(num2)
 # print(num3)
-
+# count vechum cheyyam
 
 
 #4.Merge two lists into one
