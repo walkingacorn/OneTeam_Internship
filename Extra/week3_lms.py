@@ -1,55 +1,56 @@
-# 1.Develop a menu-driven Python application that allows users to generate patterns and perform mathematical calculations using functions, recursion, and lambda expressions.
+def inverted_num():
+    for i in range(5,1,-1):
+        for j in range(1,i):
+            print(j,end="")
+        print()
 
-# Your program must display the following menu repeatedly until the user chooses to exit:
+def pyramid():
+ for i in range(1,8,2):
+    print(" "*((8-i)//2)+"*"*i)
+    
+def sum_of_first_n(n):
+    if n==0:
+        return 0
+    else:
+        return n+sum_of_first_n(n-1)
+    
+    
+print("LMS TASK - WEEK 3")
 
-# 1. Print Pyramid Star Pattern
+while True:
+   
+    print("1.Print Pyramid Star Pattern")
+    print("2.Print Inverted Number Pattern")
+    print("3.Calculate Sum of First N natural numbers")
+    print("4.Calculate power of a number using lambda function")
+    
+    choice=int(input("Choose an option:(1-5)"))
+    
+    if choice==5:
+        print("Thank you.")
+        break
+    
+    if choice in [1,2,3,4]:
+        if choice == 1:
+            pyramid()
+            
+        elif choice == 2:
+            inverted_num()
+            
+        elif choice == 3:
+            num=int(input("Enter the value for n:"))
+            print(sum_of_first_n(num))
+            
+        elif choice == 4:
+            num=int(input("Enter number:"))
+            power = int(input("Enter power:"))
+            power_of_num=lambda num,power:num**power
+            print(power_of_num(num,power))
+            
+        
+    else:
+        print("Invalid Choice!")
+            
+    
+    
 
-# 2. Print Inverted Number Pattern
-
-# 3. Calculate Sum of First N Natural Numbers (Recursion)
-
-# 4. Calculate Power of a Number (Lambda)
-
-# 5. Exit
-
-
-
-# 1. Pyramid Star Pattern (Function)
-
-#    *
-
-#   ***
-
-#  *****
-
-# *******
-
-# Requirements:
-
-# •        Implement inside a function.
-
-# •        Use loops to generate spacing and stars.
-
-# •        Pattern logic must be dynamic based on user input.
-
-# 2.  Inverted Number Pattern (Function)
-
-# 1234
-
-# 123
-
-# 12
-
-# 1
-
-# Requirements:
-
-# •        Implement in a separate function.
-
-# •        Use nested loops.
-
-# 3. Create a recursive function to compute sum of first n natural numbers
-
-# 4. Use a lambda function to calculate power of a number
-
-power_of_num=lamda a,b):a**b
