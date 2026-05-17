@@ -43,10 +43,36 @@
 
 #Write a recursive function to reverse a string
 
-def reverse_string(s):
-    if len(s)==0:
-        return s
-    else:
-        return reverse_string(s[1:])+s[0]
+# def reverse_string(s):
+#     if len(s)==0:
+#         return s
+#     else:
+#         return reverse_string(s[1:])+s[0]
 
-print(reverse_string("hello"))
+# print(reverse_string("hello"))
+
+
+#recusively sum the elements of a list
+
+# list1=[1,2,3,4,5]
+
+# def sum_list(list1):
+#     if len(list1)==0:
+#         return 0
+#     else:
+#         return list1[0] + sum_list(list1[1:])
+    
+# print(sum_list(list1))
+
+
+#reverse a string
+
+# string1="hello"
+
+# def rev_string(string1):
+#     if len(string1)==0:
+#         return ''
+#     else:
+#         return rev_string(string1[1:])+string1[0]
+    
+# print(rev_string(string1))

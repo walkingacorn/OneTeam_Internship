@@ -30,3 +30,13 @@
 
 # squares=[squares(x) for x in range(1,6)]
 # print(squares)
+
+matrix=[[x for x in range(3)] for y in range(3)]
+print(matrix)
+
+squares=[x**2 for x in range(5)]
+print(squares)
+
+test1='I love python, python is amazing'
+print(test1.find('python'))
+print(test1.rfind('python'))
